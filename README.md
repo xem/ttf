@@ -6,10 +6,11 @@ This project hosts interesting TTF files useable (for example) as a polyfill in 
 Emoji Color Fonts
 -----------------
 
-1) Noto Color Emoji (N.ttf) - Unicode 17.0
+1) Noto Color Emoji (N.ttf / NF.ttf incl. flags) - Unicode 17.0 - Colrv1 (compatible with Firefox)
 
 ```
-@font-face { font-family: emoji; src: url(//xem.github.io/ttf/N.ttf) }
+@font-face { font-family: emojiwithoutflags; src: url(//xem.github.io/ttf/N.ttf) }
+@font-face { font-family: emojiwithflags; src: url(//xem.github.io/ttf/NF.ttf) }
 ```
 
 ![image](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fab4b4276-9bb0-42a6-a675-510fcb6055df_1940x1088.png)
