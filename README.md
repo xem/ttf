@@ -27,3 +27,15 @@ Emoji Color Fonts
 ![image](https://github.com/13rac1/twemoji-color-font/raw/main/images/twemoji-font-demo.png?raw=true)
 
 [source](https://github.com/13rac1/twemoji-color-font)
+
+
+Native fonts
+------------
+
+3) Comic Sans MS (C.ttf)
+
+```
+@font-face { font-family: emoji; src: url(//xem.github.io/ttf/C.ttf) }
+```
+
+[source](https://github.com/antimatter15/doge/blob/master/Comic%20Sans%20MS.ttf)
